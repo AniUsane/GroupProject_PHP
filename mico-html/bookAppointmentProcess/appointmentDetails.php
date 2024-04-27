@@ -87,7 +87,7 @@
       ?>
       <div class="btn-box">
         <button class="btn" style="background-color: #00c6a9; padding: 10px 45px; border-radius: 5px; margin-top: 10px;
-          text-transform: uppercase"><a href="..index.php" style="text-decoration: none; color: #ffffff">Back to Homepage</a></button>
+          text-transform: uppercase"><a href="../index.php" style="text-decoration: none; color: #ffffff">Back to Homepage</a></button>
       </div>
     </div>
   </section>

@@ -52,11 +52,6 @@
 
 <body>
 
-  <!-- header section-->
-
-  <?php include './header.php';?>
-
-  <!-- end  header section -->
 
   <!-- book detail information  -->
 

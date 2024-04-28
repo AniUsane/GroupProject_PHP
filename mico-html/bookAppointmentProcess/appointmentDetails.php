@@ -54,8 +54,7 @@
 
   <!-- header section-->
 
-  <?php include '../functions/header_contact_function.php';?>
-  <?php include '../categories/header.php';?>
+  <?php include './header.php';?>
 
   <!-- end  header section -->
 
@@ -96,7 +95,8 @@
 
 
   <!-- footer section -->
-  <?php include '../categories/footer.php';?>
+  <?php include '../categories/info.php';?>
+  <?php include './footer.php';?>
   <!-- end footer section -->
 
   <!-- jQery -->

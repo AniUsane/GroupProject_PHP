@@ -52,6 +52,7 @@
 
 <body>
 
+
   <!-- book detail information  -->
 
   <section class="book_section layout_padding">
@@ -89,7 +90,8 @@
 
 
   <!-- footer section -->
-  <?php include '../categories/footer.php';?>
+  <?php include '../categories/info.php';?>
+  <?php include './footer.php';?>
   <!-- end footer section -->
 
   <!-- jQery -->

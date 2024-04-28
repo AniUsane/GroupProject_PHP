@@ -8,7 +8,7 @@
       <div class="row">
         <div class="col-md-7">
           <div class="form_container">
-          <form action="submit_form.php" method="POST">
+          <form action="submit_form.php" method="POST" id="get-in-touch">
               <div>
                 <input type="text" placeholder="Full Name" name="inputPatientName" />
               </div>

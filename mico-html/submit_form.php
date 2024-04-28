@@ -6,7 +6,7 @@
 <div class="book-container">
     <p class="confirmation"><?php get_in_touch(); ?></p>
     <div class="btn-box">
-        <a href="./index.php" style="text-decoration: none; color: #ffffff"><button class="btn" style="background-color: #00c6a9; padding: 10px 45px; color:#ffffff; border-radius: 5px; margin-top: 10px; text-transform: uppercase">Back to Homepage</button></a>
+        <a href="./index.php#get-in-touch" style="text-decoration: none; color: #ffffff"><button class="btn" style="background-color: #00c6a9; padding: 10px 45px; color:#ffffff; border-radius: 5px; margin-top: 10px; text-transform: uppercase">Back to Homepage</button></a>
     </div>
 </div>
 

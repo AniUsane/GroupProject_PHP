@@ -38,7 +38,11 @@
   
   <?php include './functions/header_contact_function.php' ?>
 <style>
-  .book-container {
+html {
+  scroll-behavior: smooth;
+}
+
+.book-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -47,7 +51,7 @@
   padding: 50px;
 }
 
-.confirmation{
+.confirmation {
   font-size: 30px;
 }
 

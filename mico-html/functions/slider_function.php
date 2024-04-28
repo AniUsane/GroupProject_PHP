@@ -90,6 +90,6 @@ if (!function_exists('slider_loop')) {
           }
       }
   }
-}
 
+}
 ?>

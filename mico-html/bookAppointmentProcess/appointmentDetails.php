@@ -52,13 +52,6 @@
 
 <body>
 
-  <!-- header section-->
-
-  <?php include '../functions/header_contact_function.php';?>
-  <?php include '../categories/header.php';?>
-
-  <!-- end  header section -->
-
   <!-- book detail information  -->
 
   <section class="book_section layout_padding">

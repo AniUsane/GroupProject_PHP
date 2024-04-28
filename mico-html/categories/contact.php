@@ -8,18 +8,18 @@
       <div class="row">
         <div class="col-md-7">
           <div class="form_container">
-            <form action="submit_form.php" method="POST">
+          <form action="submit_form.php" method="POST">
               <div>
-                <input type="text" placeholder="Full Name" />
+                <input type="text" placeholder="Full Name" name="inputPatientName" />
               </div>
               <div>
-                <input type="email" placeholder="Email" />
+                <input type="email" placeholder="Email" name="email" />
               </div>
               <div>
-                <input type="text" placeholder="Phone Number" />
+                <input type="text" placeholder="Phone Number" name="inputPhone" />
               </div>
               <div>
-                <input type="text" class="message-box" placeholder="Message" />
+                <input type="text" class="message-box" placeholder="Message" name="message"/>
               </div>
               <div class="btn_box">
                 <button>

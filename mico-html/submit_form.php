@@ -1,6 +1,6 @@
 <?php include './functions/submit_function.php'; ?>
 <!-- Start of header section -->
-<?php include './categories/header.php'; ?>
+<?php include './categories/submit_header.php'; ?>
 <!-- End of header section -->
 
 <div class="book-container">

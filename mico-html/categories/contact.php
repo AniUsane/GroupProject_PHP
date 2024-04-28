@@ -16,7 +16,7 @@
                 <input type="email" placeholder="Email" name="email" />
               </div>
               <div>
-                <input type="text" placeholder="Phone Number" name="inputPhone" />
+                <input type="number" placeholder="Phone Number" name="inputPhone" />
               </div>
               <div>
                 <input type="text" class="message-box" placeholder="Message" name="message"/>

@@ -22,41 +22,32 @@ if(!function_exists('testimonials')){
         ],
     ];
 
-
-    function testimonials($testimonials){
-        foreach($testimonials as $testimonial) {
-            if($testimonial['active'] == 'true'){
-                echo '
-                <div class="carousel-item active">
+  
+  function testimonials($testimonials){
+    $counter = 0;
+    
+    do {
+        $testimonial = $testimonials[$counter];
+        
+        $activeClass = ($testimonial['active'] == 'true') ? 'active' : '';
+        
+        echo '
+            <div class="carousel-item ' . $activeClass . '">
                 <div class="box">
-                  <div class="client_info">
-                    <div class="client_name">
-                      <h5> ' . $testimonial['heading'] . ' </h5>
-                      <h6> ' . $testimonial['heading2'] . ' </h6>
+                    <div class="client_info">
+                        <div class="client_name">
+                            <h5> ' . $testimonial['heading'] . ' </h5>
+                            <h6> ' . $testimonial['heading2'] . ' </h6>
+                        </div>
+                        <i class="fa fa-quote-left" aria-hidden="true"></i>
                     </div>
-                    <i class="fa fa-quote-left" aria-hidden="true"></i>
-                  </div>
-                  <p> ' . $testimonial['paragraph'] . ' </p>
+                    <p> ' . $testimonial['paragraph'] . ' </p>
                 </div>
-              </div>
-                ';
-            }else{
-                echo '
-                <div class="carousel-item">
-                <div class="box">
-                  <div class="client_info">
-                    <div class="client_name">
-                      <h5> ' . $testimonial['heading'] . ' </h5>
-                      <h6> ' . $testimonial['heading2'] . ' </h6>
-                    </div>
-                    <i class="fa fa-quote-left" aria-hidden="true"></i>
-                  </div>
-                  <p> ' . $testimonial['paragraph'] . ' </p>
-                </div>
-              </div>
-                ';
-            }
-        }
-    }
+            </div>
+        ';
+        
+        $counter++;
+    } while ($counter < count($testimonials)); 
   }
+}
 ?>

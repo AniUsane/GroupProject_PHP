@@ -28,23 +28,31 @@ if (!function_exists('treatment')) {
   ];
 
 
-  function treatment($treatments){
-      foreach($treatments as $treatment){
-          echo '
-          <div class="col-md-6 col-lg-3">
-          <div class="box ">
-            <div class="img-box">
-              <img src=" ' . $treatment['image'] . ' " alt="">
+  function treatment($treatments) {
+    $num_treatments = count($treatments);
+    
+    $treatment_index = 0;
+    
+    while ($treatment_index < $num_treatments) {
+        $treatment = $treatments[$treatment_index];
+        
+        echo '
+            <div class="col-md-6 col-lg-3">
+                <div class="box">
+                    <div class="img-box">
+                        <img src="' . $treatment['image'] . '" alt="">
+                    </div>
+                    <div class="detail-box">
+                        <h4>' . $treatment['heading'] . '</h4>
+                        <p>' . $treatment['paragraph'] . '</p>
+                        <a href="">' . $treatment['link'] . '</a>
+                    </div>
+                </div>
             </div>
-            <div class="detail-box">
-              <h4> ' . $treatment['heading'] . ' </h4>
-              <p> ' . $treatment['paragraph'] . ' </p>
-              <a href=""> ' . $treatment['link'] . ' </a>
-            </div>
-          </div>
-        </div>
-          ';
-      }
+        ';
+        
+        $treatment_index++;
+    }
   }
 }
 

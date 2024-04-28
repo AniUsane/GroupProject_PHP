@@ -51,8 +51,6 @@
 </head>
 
 <body>
-
-
   <!-- book detail information  -->
 
   <section class="book_section layout_padding">
@@ -80,12 +78,12 @@
         }
       ?>
       <div class="btn-box">
-        <button class="btn" style="background-color: #00c6a9; padding: 10px 45px; border-radius: 5px; margin-top: 10px;
-          text-transform: uppercase"><a href="../index.php" style="text-decoration: none; color: #ffffff">Back to Homepage</a></button>
+        <a href="../index.php" style="text-decoration: none; color: #ffffff"><button class="btn" style="background-color: #00c6a9;padding: 10px 45px; color:#ffffff; border-radius: 5px; margin-top: 10px; text-transform: uppercase">Back to Homepage</button><a>
       </div>
     </div>
   </section>
 
   <!-- end book confirmation -->
 
-
+</body>
+<html>

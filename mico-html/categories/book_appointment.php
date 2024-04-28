@@ -54,7 +54,8 @@
             </div>
           </div>
           <div class="btn-box">
-            <button type="submit" class="btn">Submit Now</button>
+            <button type="submit" class="btn" style="background-color: #00c6a9; padding: 10px 45px; border-radius: 5px; margin-top: 10px;
+          text-transform: uppercase">Submit Now</button>
           </div>
         </form>
       </div>
